@@ -13,4 +13,4 @@ plp:
   show.bazaar.voice: false
   show.no.results: false
  pdp:
-  details.tabs.visible:Reviews
+  details.tabs.visible: Reviews
