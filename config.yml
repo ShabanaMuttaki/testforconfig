@@ -1,0 +1,9 @@
+key: BOSCH_B2B
+name: BOSCH B2B
+plp:
+  show.bazaar.voice: true
+  show.no.results: false
+ pdp:
+  details.tabs.visible:Tech_Specs,Reviews
+  
+ 
