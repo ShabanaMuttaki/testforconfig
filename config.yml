@@ -14,3 +14,21 @@ plp:
   show.no.results: false
  pdp:
   details.tabs.visible: Tech_Specs
+  
+  
+ key: SIEMENS_B2C
+name: SIEMENS B2C
+plp:
+  show.bazaar.voice: true
+  show.no.results: true
+ pdp:
+  details.tabs.visible: Tech_Specs,OFFERS
+  
+  
+ key: BSH_B2C
+name: SIEMENS B2C
+plp:
+  show.bazaar.voice: false
+  show.no.results: true
+ pdp:
+  details.tabs.visible: Tech_Specs
