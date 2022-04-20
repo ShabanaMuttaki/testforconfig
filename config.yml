@@ -13,4 +13,4 @@ plp:
   show.bazaar.voice: false
   show.no.results: false
  pdp:
-  details.tabs.visible: Tech_Specs
+  details.tabs.visible:
