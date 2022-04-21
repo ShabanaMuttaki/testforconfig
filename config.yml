@@ -6,8 +6,15 @@ plp:
  pdp:
   details.tabs.visible: Tech_Specs,Reviews
   
- 
 key: SIEMENS_B2B
+name: SIEMENS B2B
+plp:
+  show.bazaar.voice: false
+  show.no.results: false
+ pdp:
+  details.tabs.visible: Reviews
+  
+key: SIEMENS_B2C
 name: SIEMENS B2B
 plp:
   show.bazaar.voice: false
