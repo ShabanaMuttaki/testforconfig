@@ -36,8 +36,8 @@ jobs:
           echo test, and deploy your project.
       - name: Validate YAML
   # You may pin to the exact commit or the version.
-  # uses: brittonhayes/validate-yaml@7039dd2e9ab1840a5d0934ae0ad3fa4c9c03ff5f
-        uses: ShabanaMuttaki/validate-yaml@v0.3.0
+        #uses: ShabanaMuttaki/validate-yaml@v0.3.0
+       uses: brittonhayes/validate-yaml@7039dd2e9ab1840a5d0934ae0ad3fa4c9c03ff5f
         with:
     # Files to validate
            files: config.yml
