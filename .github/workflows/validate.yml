@@ -27,9 +27,9 @@ jobs:
      - name: Validate YAML
        uses: brittonhayes/validate-yaml@v0.3.0
        with: 
-    # Files to validate
-        files: config.yml
-    # Path to schema to validate against
+   
         schemaPath: 'schema.json'
+        files: |
+         /config.yaml
 
 
