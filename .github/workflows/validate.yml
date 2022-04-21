@@ -34,17 +34,15 @@ on:
 
 
 jobs:
-  verify-json-validation:
+  yaml-schema-validation:
     runs-on: ubuntu-latest
     steps:
-    - name: YAML Lint
-  # You may pin to the exact commit or the version.
-  # uses: ibiqlik/action-yamllint@81e214fd484713882ce4237cb7cd264d550856cf
-      uses: ibiqlik/action-yamllint@v3.1.0
+    - uses: actions/checkout@v2
+    - uses: nrkno/yaml-schema-validator-github-action@v4
       with:
-    # File(s) or Directory, separate by space if multiple files or folder are specified
-       file_or_dir: https://github.com/ShabanaMuttaki/testforconfig/tree/main/test
-    # Path to custom configuration
-       #config_file: ./schema.yml
+        schema: schema.yaml
+        target: config.yaml
+        # Uncomment to disable strict checks
+        # no-strict: true
  
 
