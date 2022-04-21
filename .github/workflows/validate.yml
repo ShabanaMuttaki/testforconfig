@@ -27,11 +27,9 @@ jobs:
     steps:
 
   # You may pin to the exact commit or the version.
-     - name: Validate YAML
-     - uses: brittonhayes/validate-yaml@v0.3.0 
-     - uses: ./
-       with: 
-   
+     name: Validate YAML
+     uses: brittonhayes/validate-yaml@v0.3.0
+     with: 
         schemaPath: "schema.json"
         files: |
          config.yaml
