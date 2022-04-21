@@ -37,9 +37,14 @@ jobs:
   verify-json-validation:
     runs-on: ubuntu-latest
     steps:
-    - name: Validate other schema
-      uses: snapcart/json-schema-validator@v1.0.0
+    - name: YAML Lint
+  # You may pin to the exact commit or the version.
+  # uses: ibiqlik/action-yamllint@81e214fd484713882ce4237cb7cd264d550856cf
+      uses: ibiqlik/action-yamllint@v3.1.0
       with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          json_schema: schema.json
-          json_path_pattern: config.yml
+    # File(s) or Directory, separate by space if multiple files or folder are specified
+       file_or_dir: config.yml
+    # Path to custom configuration
+       config_file: schema.yml
+ 
+
