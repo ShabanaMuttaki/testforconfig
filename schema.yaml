@@ -1,6 +1,2 @@
-map: map(
-key: str(),
-name: str(),
-plp.show.bazaar.voice: bool(),
-plp.show.bazaar.voice: bool(),
-pdp.details.tabs.visible: str())
+map: map(key: str(),name: str(),plp.show.bazaar.voice: bool(),plp.show.bazaar.voice: bool(),pdp.details.tabs.visible: str())
+
