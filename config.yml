@@ -17,5 +17,5 @@
   plp:
     show.bazaar.voice: false
     show.no.results: false
-  pdp
+  pdp:
     details.tabs.visible: ['Tech_Specs','PROMOTION']
