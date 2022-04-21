@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/Welcome8Element"
+    },
+    "definitions": {
+        "Welcome8Element": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "key": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "plp": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "boolean"
+                    }
+                },
+                "pdp": {
+                    "$ref": "#/definitions/PDP"
+                }
+            },
+            "required": [
+                "key",
+                "name",
+                "pdp",
+                "plp"
+            ],
+            "title": "Welcome8Element"
+        },
+        "PDP": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "details.tabs.visible": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            },
+            "required": [
+                "details.tabs.visible"
+            ],
+            "title": "PDP"
+        }
+    }
+}
