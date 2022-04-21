@@ -10,6 +10,6 @@ testConfig:
    name: SIEMENS B2B
    plp_bazaarvoice: true
    plp_noresults: false
-   plp_tabsvisible:
+   pdp_tabsvisible:
     - Tech_Specs
     - Promotion
