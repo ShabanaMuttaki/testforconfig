@@ -32,7 +32,7 @@ jobs:
      - uses: ./
        with: 
    
-        schemaPath: schema.json
+        schemaPath: "schema.json"
         files: |
          config.yaml
 
