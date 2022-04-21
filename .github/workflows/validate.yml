@@ -30,6 +30,6 @@ jobs:
     # Files to validate
         files: /config.yml
     # Path to schema to validate against
-        schemaPath: ShabanaMuttaki/testforconfig/blob/main/schema.yml
+        schemaPath: /schema.yml
 
 
