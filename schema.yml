@@ -5,14 +5,13 @@ testConfig:
     name: 
       type: string
       required: true
-    plp.show.bazaar.voice:
+    bazaarvoice:
       type: boolean
       required: true
-    plp.show.no.results: 
+    noresults: 
       type: boolean
       required: true
-    pdp.details.tabs.visible: 
-      type: array
-      required: true
+    tabsvisible: 
+        - type: string
     
       
