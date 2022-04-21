@@ -35,7 +35,7 @@ jobs:
         uses: brittonhayes/validate-yaml@v0.3.0
         with:
     # Files to validate
-          files-to-validate: config.yml
+          files: config.yml
     # Path to schema to validate against
           schemaPath: schema.yml
 
