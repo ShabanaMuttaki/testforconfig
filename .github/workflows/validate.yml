@@ -41,5 +41,5 @@ jobs:
       uses: snapcart/json-schema-validator@v1.0.0
       with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          json_schema: ./schema.json
-          json_path_pattern: ./config.yml
+          json_schema: schema.json
+          json_path_pattern: config.yml
