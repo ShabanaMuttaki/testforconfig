@@ -45,6 +45,6 @@ jobs:
     # File(s) or Directory, separate by space if multiple files or folder are specified
        file_or_dir: config.yml
     # Path to custom configuration
-       config_file: schema.yml
+       #config_file: ./schema.yml
  
 
