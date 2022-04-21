@@ -5,13 +5,13 @@ testConfig:
     name: 
       type: string
       required: true
-    bazaarvoice:
+    plp_bazaarvoice:
       type: boolean
       required: true
-    noresults: 
+    plp_noresults: 
       type: boolean
       required: true
-    tabsvisible: 
+    pdp_tabsvisible: 
         - type: string
     
       
