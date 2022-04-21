@@ -5,7 +5,7 @@ testConfig:
     name: 
       type: string
       required: true
-    plp.show.bazaar.voice:: 
+    plp.show.bazaar.voice:
       type: boolean
       required: true
     plp.show.no.results: 
