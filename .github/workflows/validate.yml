@@ -37,8 +37,9 @@ jobs:
   verify-json-validation:
     runs-on: ubuntu-latest
     steps:
-    - name: Run json validation 
-      uses: Zingabopp/JsonValidate-Action@v1
+    - name: Validate other schema
+      uses: snapcart/json-schema-validator@v1.0.0
       with:
-       json-schema: https://github.com/ShabanaMuttaki/testforconfig.git/schema.json
-       json-file: https://github.com/ShabanaMuttaki/testforconfig.git/config.json
+          token: ${{ secrets.GITHUB_TOKEN }}
+          json_schema: ./schemas/other_schema.schema
+          json_path_pattern: .*other_schema.json$
