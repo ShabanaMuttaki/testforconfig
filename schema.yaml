@@ -1,10 +1,4 @@
-type: object
-properties:
-  $schema:
-    type: string
-  type:
-    type: string
-  properties:
+
     type: object
     properties:
       testConfig:
@@ -82,7 +76,3 @@ properties:
                   type: array
                   items:
                     type: string
-  required:
-    type: array
-    items:
-      type: string
