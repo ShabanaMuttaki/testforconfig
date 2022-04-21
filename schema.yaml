@@ -1,0 +1,88 @@
+type: object
+properties:
+  $schema:
+    type: string
+  type:
+    type: string
+  properties:
+    type: object
+    properties:
+      testConfig:
+        type: object
+        properties:
+          type:
+            type: string
+          items:
+            type: array
+            items:
+              type: object
+              properties:
+                type:
+                  type: string
+                properties:
+                  type: object
+                  properties:
+                    key:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    name:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    plp:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                        properties:
+                          type: object
+                          properties:
+                            show.bazaar.voice:
+                              type: object
+                              properties:
+                                type:
+                                  type: string
+                            show.no.results:
+                              type: object
+                              properties:
+                                type:
+                                  type: string
+                        required:
+                          type: array
+                          items:
+                            type: string
+                    pdp:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                        properties:
+                          type: object
+                          properties:
+                            details.tabs.visible:
+                              type: object
+                              properties:
+                                type:
+                                  type: string
+                                items:
+                                  type: array
+                                  items:
+                                    type: object
+                                    properties:
+                                      type:
+                                        type: string
+                        required:
+                          type: array
+                          items:
+                            type: string
+                required:
+                  type: array
+                  items:
+                    type: string
+  required:
+    type: array
+    items:
+      type: string
