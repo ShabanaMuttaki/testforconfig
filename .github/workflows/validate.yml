@@ -31,11 +31,11 @@ jobs:
 
       - name: Validate YAML
   # You may pin to the exact commit or the version.
-        uses: brittonhayes/validate-yaml@7039dd2e9ab1840a5d0934ae0ad3fa4c9c03ff5f
+        uses: JKarwatka/validate-yaml-schema-action@0.2.4-alpha
        # uses: brittonhayes/validate-yaml@v0.3.0
         with:
     # Files to validate
-          files: config.yml
+          files-to-validate: config.yml
     # Path to schema to validate against
           schemaPath: schema.yml
 
