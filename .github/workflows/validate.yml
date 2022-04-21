@@ -43,7 +43,7 @@ jobs:
       uses: ibiqlik/action-yamllint@v3.1.0
       with:
     # File(s) or Directory, separate by space if multiple files or folder are specified
-       file_or_dir: ./test
+       file_or_dir: https://github.com/ShabanaMuttaki/testforconfig/tree/main/test
     # Path to custom configuration
        #config_file: ./schema.yml
  
