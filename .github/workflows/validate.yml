@@ -43,7 +43,7 @@ jobs:
       uses: ibiqlik/action-yamllint@v3.1.0
       with:
     # File(s) or Directory, separate by space if multiple files or folder are specified
-       file_or_dir: config.yml
+       file_or_dir: ./
     # Path to custom configuration
        #config_file: ./schema.yml
  
