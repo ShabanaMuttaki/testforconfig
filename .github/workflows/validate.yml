@@ -41,7 +41,7 @@ jobs:
     - uses: JKarwatka/validate-yaml-schema-action@0.2.4-alpha
 
       with:
-        files-to-validate: '[{ "path": "config.yml", "schema": "schema.yml"}]'
+        files-to-validate: '[{ "path": "configfiles/config.yml", "schema": "schema.yml"}]'
 
   
   # Uncomment to disable strict checks
