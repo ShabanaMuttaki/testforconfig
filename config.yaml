@@ -1,14 +1,17 @@
- - key: BOSCH_B2B
+ map:
+  key: BOSCH_B2B
    name: BOSCH B2B
    plp.show.bazaar.voice: true
    plp.show.no.results: false
    pdp.details.tabs.visible: ['Tech_Specs','Reviews']
- - key: SIEMENS_B2B
+map: 
+  key: SIEMENS_B2B
    name: SIEMENS B2B
    plp.show.bazaar.voice: false
    plp.show.no.results: false
    pdp.details.tabs.visible: ['Reviews']
- - key: SIEMENS_B2C
+map:
+   key: SIEMENS_B2C
    name: SIEMENS B2B
    plp.show.bazaar.voice: false
    plp.show.no.results: false
