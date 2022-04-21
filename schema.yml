@@ -18,37 +18,10 @@ properties:
     $ref: '#/definitions/PLP'
   pdp:
     $ref: '#/definitions/PDP'
-  externalDocs:
-    $ref: '#/definitions/ExternalDocumentation'
-  servers:
-    type: array
-    items:
-      $ref: '#/definitions/Server'
-  security:
-    type: array
-    items:
-      $ref: '#/definitions/SecurityRequirement'
-  tags:
-    type: array
-    items:
-      $ref: '#/definitions/Tag'
-    uniqueItems: true
-  paths:
-    $ref: '#/definitions/Paths'
-  components:
-    $ref: '#/definitions/Components'
-patternProperties:
-  '^x-': {}
+
 additionalProperties: false
 definitions:
-  Reference:
-    type: object
-    required:
-      - $ref
-    patternProperties:
-      '^\$ref$':
-        type: string
-        format: uri-reference
+ 
   PLP:
     type: object
     required:
