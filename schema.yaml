@@ -1,163 +1,60 @@
-{
-  "type": "object",
-  "properties": {
-    "testConfig": {
-      "type": "array",
-      "items": [
-        {
-          "type": "object",
-          "properties": {
-            "key": {
-              "type": "string"
-            },
-            "name": {
-              "type": "string"
-            },
-            "plp": {
-              "type": "object",
-              "properties": {
-                "show.bazaar.voice": {
-                  "type": "boolean"
-                },
-                "show.no.results": {
-                  "type": "boolean"
-                }
-              },
-              "required": [
-                "show.bazaar.voice",
-                "show.no.results"
-              ]
-            },
-            "pdp": {
-              "type": "object",
-              "properties": {
-                "details.tabs.visible": {
-                  "type": "array",
-                  "items": [
-                    {
-                      "type": "string"
-                    },
-                    {
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
-              "required": [
-                "details.tabs.visible"
-              ]
-            }
-          },
-          "required": [
-            "key",
-            "name",
-            "plp",
-            "pdp"
-          ]
-        },
-        {
-          "type": "object",
-          "properties": {
-            "key": {
-              "type": "string"
-            },
-            "name": {
-              "type": "string"
-            },
-            "plp": {
-              "type": "object",
-              "properties": {
-                "show.bazaar.voice": {
-                  "type": "boolean"
-                },
-                "show.no.results": {
-                  "type": "boolean"
-                }
-              },
-              "required": [
-                "show.bazaar.voice",
-                "show.no.results"
-              ]
-            },
-            "pdp": {
-              "type": "object",
-              "properties": {
-                "details.tabs.visible": {
-                  "type": "array",
-                  "items": [
-                    {
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
-              "required": [
-                "details.tabs.visible"
-              ]
-            }
-          },
-          "required": [
-            "key",
-            "name",
-            "plp",
-            "pdp"
-          ]
-        },
-        {
-          "type": "object",
-          "properties": {
-            "key": {
-              "type": "string"
-            },
-            "name": {
-              "type": "string"
-            },
-            "plp": {
-              "type": "object",
-              "properties": {
-                "show.bazaar.voice": {
-                  "type": "boolean"
-                },
-                "show.no.results": {
-                  "type": "boolean"
-                }
-              },
-              "required": [
-                "show.bazaar.voice",
-                "show.no.results"
-              ]
-            },
-            "pdp": {
-              "type": "object",
-              "properties": {
-                "details.tabs.visible": {
-                  "type": "array",
-                  "items": [
-                    {
-                      "type": "string"
-                    },
-                    {
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
-              "required": [
-                "details.tabs.visible"
-              ]
-            }
-          },
-          "required": [
-            "key",
-            "name",
-            "plp",
-            "pdp"
-          ]
-        }
-      ]
-    }
-  },
-  "required": [
-    "testConfig" 
-  ]
-}
+type: object
+properties:
+  $schema:
+    type: string
+  type:
+    type: string
+  items:
+    type: object
+    properties:
+      $ref:
+        type: string
+  definitions:
+    type: object
+    properties:
+      Welcome6Element:
+        type: object
+        properties:
+          type:
+            type: string
+          additionalProperties:
+            type: boolean
+          properties:
+            type: object
+            properties:
+              key:
+                type: object
+                properties:
+                  type:
+                    type: string
+              name:
+                type: object
+                properties:
+                  type:
+                    type: string
+              plp.show.bazaar.voice:
+                type: object
+                properties:
+                  type:
+                    type: string
+              plp.show.no.results:
+                type: object
+                properties:
+                  type:
+                    type: string
+              pdp.details.tabs.visible:
+                type: object
+                properties:
+                  type:
+                    type: string
+                  items:
+                    type: object
+                    properties:
+                      type:
+                        type: string
+          required:
+            type: array
+            items:
+              type: string
+          title:
+            type: string
