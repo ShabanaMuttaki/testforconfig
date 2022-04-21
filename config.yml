@@ -4,18 +4,18 @@
     show.bazaar.voice: true
     show.no.results: false
   pdp:
-    details.tabs.visible: 'Tech_Specs,Reviews'
+    details.tabs.visible: ['Tech_Specs','Reviews']
 - key: SIEMENS_B2B
   name: SIEMENS B2B
   plp:
     show.bazaar.voice: false
     show.no.results: false
   pdp:
-    details.tabs.visible: Reviews
+    details.tabs.visible: ['Reviews']
 - key: SIEMENS_B2C
   name: SIEMENS B2B
   plp:
     show.bazaar.voice: false
     show.no.results: false
-  pdp:
-    details.tabs.visible: Reviews
+  pdp
+    details.tabs.visible: ['Tech_Specs','PROMOTION']
