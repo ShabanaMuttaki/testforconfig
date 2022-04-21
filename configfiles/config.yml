@@ -13,7 +13,7 @@ testConfig:
    pdp_tabsvisible:
     - Tech_Specs
     - Promotion
-  - key: SIEMENS_B2C
+ - key: SIEMENS_B2C
    name: SIEMENS B2B
    plp_bazaarvoice: true
    plp_noresults: false
