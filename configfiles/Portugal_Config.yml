@@ -1,0 +1,21 @@
+testConfig:
+ - key: BOSCH_B2B
+   name: BOSCH B2B
+   plp_bazaarvoice: true
+   plp_noresults: false
+   pdp_tabsvisible:
+    - Tech_Specs
+    - Reviews
+ - key: SIEMENS_B2B
+   name: SIEMENS B2B
+   plp_bazaarvoice: true
+   plp_noresults: false
+   pdp_tabsvisible:
+    - Tech_Specs
+    - Promotion
+ - key: SIEMENS_B2C
+   name: SIEMENS B2B
+   plp_bazaarvoice: true
+   plp_noresults: false
+   pdp_tabsvisible:
+    - Tech_Specs
