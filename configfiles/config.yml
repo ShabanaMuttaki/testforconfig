@@ -19,4 +19,10 @@ testConfig:
    plp_noresults: false
    pdp_tabsvisible:
     - Tech_Specs
+ - key: SIEMENS_B2C
+   plp_bazaarvoice: true
+   plp_noresults: false
+   pdp_tabsvisible:
+    - Tech_Specs   
+ 
 
