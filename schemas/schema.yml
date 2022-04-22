@@ -1,0 +1,17 @@
+testConfig:
+  - key: 
+      type: string
+      required: true
+    name: 
+      type: string
+      required: true
+    plp_bazaarvoice:
+      type: boolean
+      required: true
+    plp_noresults: 
+      type: boolean
+      required: true
+    pdp_tabsvisible: 
+        - type: string
+    
+      
