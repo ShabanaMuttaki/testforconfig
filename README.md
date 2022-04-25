@@ -7,7 +7,7 @@ A Github project using  Actions for checking if YAML Configuration files comply 
   
 ## Usage:
 
-## Step 1:
+#### Step 1:
 To use the action simply create an country_config.yml file in the /Configfiles directory. 
 
 For example:
@@ -24,14 +24,14 @@ name: India_Config.yml
     - Tech_Specs
     - Reviews
 ```
-## Step 2:
+#### Step 2:
  Add the new file path inside the .github/workflows/validate.yml on **files-to-validate:**
  
  ```
         files-to-validate: '[{ "path": "configfiles/Portugal_Config.yml", "schema": "schemas/schema.yml"},{ "path": "configfiles/Germany_Config.yml", "schema": "schemas/schema.yml"},{ "path": "configfiles/India_Config.yml", "schema": "schemas/schema.yml"}]'
 
 ```
-## Step 3:
+#### Step 3:
 
   Save the file. It will automatically trigger the workflow process and validation of yaml files will happen
 
