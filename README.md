@@ -8,7 +8,8 @@ A Github project using  Actions for checking if YAML Configuration files comply 
 ## Usage:
 
 #### Step 1:
-To use the action simply create an country_config.yml file in the /Configfiles directory. 
+To use the action simply create an country_config.yml file in the [/Config files](https://github.com/ShabanaMuttaki/testforconfig/tree/main/configfiles) directory.
+
 
 For example:
 name: India_Config.yml
@@ -25,7 +26,7 @@ name: India_Config.yml
     - Reviews
 ```
 #### Step 2:
- Add the new file path inside the .github/workflows/validate.yml on **files-to-validate:**
+ Add the new file path inside the [.github/workflows/validate.yml](https://github.com/ShabanaMuttaki/testforconfig/tree/main/.github/workflows/validate.yml) on **files-to-validate:**
  
  ```
         files-to-validate: '[{ "path": "configfiles/Portugal_Config.yml", "schema": "schemas/schema.yml"},{ "path": "configfiles/Germany_Config.yml", "schema": "schemas/schema.yml"},{ "path": "configfiles/India_Config.yml", "schema": "schemas/schema.yml"}]'
@@ -35,7 +36,7 @@ name: India_Config.yml
 
   Save the file. It will automatically trigger the workflow process and validation of yaml files will happen
 
-Results can be viewed under the workflow action like below.
+Results can be viewed under the workflow [Actions](https://github.com/ShabanaMuttaki/testforconfig/actions) like below.
 
 <img width="1671" alt="Screen Shot 2022-04-25 at 13 41 36" src="https://user-images.githubusercontent.com/104023149/165082121-2f4328d9-93e7-432d-9edb-65257ff017aa.png">
 
