@@ -1,9 +1,15 @@
   # Validate Configuration Yaml Files using  Github Actio
 
-A Github project using GitHub Action for checking if YAML Configuration files comply with specified schema. 
+## About:
+
+A Github project using  Actions for checking if YAML Configuration files comply with specified schema. Whenever Configuragtion files are edited or added , workflow action is automatically triggered and the validation of Yaml files takes place.
+
+The workflow can be further enhanced to push the config files to different repositories or to create a pull request with an approver to merge or decline.
   
-Usage
-To use the action simply create an country.yml file in the /Configfiles directory.
+## Usage:
+
+## STEP 1:
+To use the action simply create an country_config.yml file in the /Configfiles directory. 
 
 For example:
 name: India_Config.yml
@@ -19,12 +25,21 @@ name: India_Config.yml
     - Tech_Specs
     - Reviews
 ```
+## STEP 2:
+ Add the new file path inside the .github/workflows/validate.yml on **files-to-validate:**
+ 
+ ```
+        files-to-validate: '[{ "path": "configfiles/Portugal_Config.yml", "schema": "schemas/schema.yml"},{ "path": "configfiles/Germany_Config.yml", "schema": "schemas/schema.yml"},{ "path": "configfiles/India_Config.yml", "schema": "schemas/schema.yml"}]'
 
-## Next Step:
+```
+## Step 3:
 
   Save the file. It will automatically trigger the workflow process and validation of yaml files will happen
 
-Results can be viewed under the workflow action
+Results can be viewed under the workflow action like below.
+
+<img width="1671" alt="Screen Shot 2022-04-25 at 13 41 36" src="https://user-images.githubusercontent.com/104023149/165082121-2f4328d9-93e7-432d-9edb-65257ff017aa.png">
+
 
 
 
