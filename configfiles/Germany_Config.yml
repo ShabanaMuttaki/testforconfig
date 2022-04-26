@@ -23,5 +23,6 @@ testConfig:
  - key: SIEMENS_B2B_2
    name: SIEMENS B2B
    plp_bazaarvoice: false
+   plp_noresults: true
    pdp_tabsvisible:
     - Tech_Specs
